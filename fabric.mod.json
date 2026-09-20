@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "nocreativedrift263",
+  "version": "1.0.0",
+  "name": "No Creative Drift 26.3",
+  "description": "Stops horizontal sliding when Creative flight movement keys are released.",
+  "authors": ["OpenAI Codex for Jonathan"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    "nocreativedrift263.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25"
+  }
+}
